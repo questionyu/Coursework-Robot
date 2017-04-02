@@ -258,20 +258,20 @@ class RobotInterface {
 	}
 
 	/**
-	 * A setter method.
-	 *
-	 * @param setTime Change time to setTime.
-	 */
-	void setTime(int setTime) {
-		time = setTime;
-	}
-
-	/**
 	 * A getter method.
 	 *
 	 * @return time Return the current time.
 	 */
 	int getTime() {
 		return time;
+	}
+
+	/**
+	 * A setter method.
+	 *
+	 * @param setTime Change time to setTime.
+	 */
+	void setTime(int setTime) {
+		time = setTime;
 	}
 }

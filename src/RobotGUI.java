@@ -39,11 +39,6 @@ public class RobotGUI extends JFrame implements ActionListener {
 	private JPanel helloPanel, dishPanel, jokePanel;
 	private boolean isPaid = true;
 
-	// Program starts here.
-	public static void main(String[] args) {
-		new RobotGUI();
-	}
-
 	/**
 	 * This method create a JFrame and set some settings.
 	 */
@@ -58,6 +53,11 @@ public class RobotGUI extends JFrame implements ActionListener {
 		setVisible(true);
 		timeToSleep(); // Make timer start.
 		sayHello();
+	}
+
+	// Program starts here.
+	public static void main(String[] args) {
+		new RobotGUI();
 	}
 
 	/**
