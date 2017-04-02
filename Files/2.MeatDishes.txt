@@ -1,0 +1,6 @@
+shui zhu rou pian,15,297
+gong bao ji ding,16,393
+hong shao rou,17,498
+xiao chao xia ren,18,578
+shou si ji,19,677
+steak,20,798

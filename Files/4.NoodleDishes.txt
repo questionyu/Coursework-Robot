@@ -1,0 +1,6 @@
+lanzhou niu rou mian,12,793
+henan hui mian,22,495
+wuhan re gan mian,32,194
+shanxi guan guan mian,12,692
+hai shen chao mian,22,393
+shannxi biang biang mian,32,94

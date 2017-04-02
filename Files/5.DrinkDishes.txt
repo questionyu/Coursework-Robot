@@ -1,0 +1,6 @@
+lemonade,3.5,399
+beer,4,399
+xiao ming tong xue,4.5,400
+Coke Cola,5,390
+spirit,1000,376
+wine,20000,359
