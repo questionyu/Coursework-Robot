@@ -1,12 +1,6 @@
 /*
-  Created by Question on 2016/5/30 0030.
-  Title        RobotInterface.java
-  Description  This class contains the Robot Interface's definition.
-  Copyright    (c) 2016 Copyright Holder All Rights Reserved.
-
-  @author Bowen Yu / jp2014212880 / 140918780
- * @date June 3rd, 2016
- * @version 1.0
+ * Created by Question on 3/6/2016
+ * Copyright (c) 2017. All Rights Reserved.
  */
 
 import java.io.FileInputStream;
@@ -14,6 +8,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+/**
+ * Title        RobotInterface.java
+ * Description  This class contains the Robot Interface's definition.
+ */
 
 class RobotInterface {
 
