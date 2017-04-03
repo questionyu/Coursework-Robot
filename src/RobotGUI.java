@@ -1,10 +1,6 @@
-/**
- * Title        RobotGUI.java
- * Description  This class contains the Robot GUI's definition.
- * Copyright    (c) 2017 Copyright Holder All Rights Reserved.
- *
- * @author Question
- * @date 30/05/2016
+/*
+ * Created by Question on 30/5/2016
+ * Copyright (c) 2017. All Rights Reserved.
  */
 
 import javax.swing.*;
@@ -13,6 +9,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Timer;
 import java.util.TimerTask;
+
+/**
+ * Title        RobotGUI.java
+ * Description  This class contains the Robot GUI's definition.
+ */
 
 public class RobotGUI extends JFrame implements ActionListener {
 
@@ -45,8 +46,7 @@ public class RobotGUI extends JFrame implements ActionListener {
 	private RobotGUI() {
 		super("Robot"); // Set the title of Robot GUI.
 		setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); // Do nothing when click the exit button.
-		Color guiBackgroundColor = new Color(90, 154, 212);
-		getContentPane().setBackground(guiBackgroundColor); // Set the background color of window.
+		getContentPane().setBackground(new Color(90, 154, 212)); // Set the background color of window.
 		setSize(width, height); // Set the size of window.
 		setResizable(false); // Forbid to resize the window.
 		setLocationRelativeTo(null); // Set the window in the centre of screen.
@@ -57,7 +57,7 @@ public class RobotGUI extends JFrame implements ActionListener {
 
 	// Program starts here.
 	public static void main(String[] args) {
-		new RobotGUI();
+		SwingUtilities.invokeLater(RobotGUI::new);
 	}
 
 	/**
