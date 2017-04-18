@@ -13,7 +13,6 @@ import java.util.Scanner;
  * Title        RobotInterface.java
  * Description  This class contains the Robot Interface's definition.
  */
-
 class RobotInterface {
 
 	// Instance variables.
@@ -24,9 +23,8 @@ class RobotInterface {
 	/**
 	 * This method stores the file path of welcome messages.
 	 *
-	 * @return randomString("Files/WelcomeMessages.txt") Give the file path to randomString method.
+	 * @return randomString Give the file path to randomString method.
 	 */
-	@SuppressWarnings("JavaDoc")
 	String getWelcome() {
 		return randomString("Files/WelcomeMessages.txt");
 	}
@@ -34,9 +32,8 @@ class RobotInterface {
 	/**
 	 * This method stores the file path of joke messages.
 	 *
-	 * @return randomString("Files/Jokes.txt") Give the file path to randomString method.
+	 * @return randomString Give the file path to randomString method.
 	 */
-	@SuppressWarnings("JavaDoc")
 	String getJoke() {
 		return randomString("Files/Jokes.txt");
 	}
@@ -44,9 +41,8 @@ class RobotInterface {
 	/**
 	 * This method stores the file path of farewell messages.
 	 *
-	 * @return randomString("Files/Farewells.txt") Give the file path to randomString method.
+	 * @return randomString Give the file path to randomString method.
 	 */
-	@SuppressWarnings("JavaDoc")
 	String getFarewell() {
 		return randomString("Files/Farewells.txt");
 	}
